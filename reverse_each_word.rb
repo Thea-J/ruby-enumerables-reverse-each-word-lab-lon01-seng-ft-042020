@@ -3,6 +3,7 @@
 #Becomes: "olleH ,ereht dna woh era ?uoy"
 
 #Use .each enumerable
+#Remeber, .each returns the original array
 def reverse_each_word(string)
 array_of_each_word = string.split
 reversed_array = [ ]
